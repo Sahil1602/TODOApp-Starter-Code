@@ -1,0 +1,67 @@
+body{
+
+    background: linear-gradient(to right, #F80C28, #360B52);
+}
+
+
+#to-do-form{
+
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translateX(-50%);
+    margin-top: 150px;
+    background-color: #FEF0D3;
+    padding: 8px 16px;
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+#todo-input{
+    width: 80%;
+    background-color: #FEF0D3;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px 10px 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    border-bottom: #A10457 solid 2px;
+    outline: none;
+}
+
+#todo-input::placeholder {
+    color: #F80C28;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#save-icon{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 35px;
+    
+}
+
+#save-icon i{
+    color: transparent;
+    background-image: linear-gradient(to right, #F80C28, #360B52);
+    opacity: 0.5;
+    -webkit-background-clip: text;
+}
+
+#do-list{
+    width: 100%;
+    background-color: #FEF0D3;
+    padding: 8px 16px;
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
